@@ -1,0 +1,700 @@
+/* global css start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Lato", sans-serif;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  padding: 0;
+  margin: 0;
+}
+/* global css end */
+
+/* header css part start */
+.headerPartMain {
+  padding: 12px 15px;
+  
+}
+.logoDiv img {
+  width: 60%;
+  display: block;
+}
+.navDiv ul li {
+  display: inline-block;
+}
+.navDiv ul li a {
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  padding-right: 35px;
+}
+.loginAndSingUP ul li {
+  display: inline-block;
+}
+.loginAndSingUP ul li a {
+  color: #444;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: block;
+  padding: 0px 20px;
+}
+
+.searchDiv input {
+  position: relative;
+}
+
+.searchDiv i {
+  position: absolute;
+  top: 24px;
+  left: 52%;
+}
+.searchDiv .form-control {
+  background-color: #f0f3f5;
+  padding: 7px 40px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 2px;
+}
+.barIcon i {
+  display: none;
+}
+/* header css part end */
+
+/* banner part css start */
+.bannerBgImage {
+  background-image: url('/images/banner.a0a50116b3ae.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+}
+.bannerFormGrid {
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-top: 100px;
+  background-color: #ffffff6e;
+  border-radius: 5px;
+}
+.bannerFormGrid p {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 17px;
+  color: #444;
+}
+.bannerFormInput {
+  margin-bottom: 10px;
+}
+.bannerFormInput ul {
+  margin-top: 3px;
+}
+.bannerFormInput ul li {
+  display: inline-block;
+  font-size: 13px;
+  padding: 0 5px;
+}
+.bannerFormGrid .form-select {
+  padding: 6px 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+}
+.bannerFormInput .form-control {
+  padding: 5px 12px;
+  border-radius: 4px;
+}
+
+.bannerFormGrid .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 1px 1px 4px 0px #86b7fe;
+}
+.bannerFormGrid .form-select:focus {
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 1px 1px 4px 0px #86b7fe;
+}
+.bannerFormInput button {
+  background-color: #075aaa;
+  color: #fff;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.bannerFormInput input::placeholder {
+  font-size: 14px;
+  color: #8b8989;
+}
+/* banner part css end */
+/* counter part css start */
+.counterPartMain {
+  background-color: #f9fbfb;
+  padding: 10px 0;
+  border-top: 1px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  margin-bottom: 10px;
+}
+.counterGrid {
+  border-right: 1px solid #bdc3c7;
+  text-align: center;
+}
+.counterGrid p {
+  font-size: 24px;
+}
+.last {
+  border-right: none;
+}
+/* counter part css end */
+
+/* best doctor part css start */
+.bestDoctorPartMain {
+  padding: 20px 0;
+}
+.bestDoctorPartMain h5 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.bestDoctorPatLargGrid {
+  border: 1px solid lightgray;
+  border-right: none;
+}
+.doctorGrid {
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 10px ;
+}
+.doctorGrid img {
+  width: 100%;
+  border: 1px solid #958f8f;
+}
+.doctorGrid span {
+  padding: 5px 0;
+  display: block;
+}
+.doctorGrid i {
+  color: #ee8110;
+}
+.doctorList ul li {
+  border: 1px solid lightgray;
+  border-left: none;
+  border-top: none;
+}
+.doctorList ul li a {
+  display: block;
+  font-size: 14px;
+  padding: 7px 10px;
+  color: #075aaa;
+  background-color: #fbfafa;
+}
+.bestDoctorRightGrid img {
+  width: 100%;
+  border: 1px solid lightgray;
+}
+.bestDoctorRightGrid button {
+  border: none;
+  background-color: #075aaa;
+  color: #fff;
+  padding: 3px 5px;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 17px;
+}
+.doctorList ul li:last-child {
+  border-bottom: none;
+}
+.doctorGrid:last-child {
+  border-bottom: none;
+}
+.followUsDiv {
+  margin-top: 20px;
+}
+.followUsDiv ul li {
+  display: inline-block;
+}
+.latestNews h4 {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.followUsDiv ul li a i {
+  font-size: 35px;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.newsRightGrid h6 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.newsRightGrid p {
+  font-size: 13px;
+  line-height: 16px;
+}
+.findADoctorGrid ul li a {
+  color: #075aaa;
+  display: block;
+  margin-bottom: 2px;
+}
+.doctorGrid h6 {
+  color: #075aaa;
+  font-weight: bold;
+}
+/* best doctor part css end */
+
+/* client part start */
+.clientPartMain {
+  background-color: #f9fbfb;
+  border-top: 1px solid #bdc3c7;
+  border-bottom: 1px solid #bdc3c7;
+  margin-bottom: 20px;padding: 10px;
+}
+.clientList {
+  padding: 0 30px;
+}
+.clientList ul li {
+  display: inline-block;
+}
+
+.clientList ul li img {
+  display: block;
+  margin-left: 50px;
+}
+
+.clientList ul li a {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #444;
+  margin-top: -12px;
+}
+
+/* client part end */
+
+
+
+/* footer part start */
+
+.footerTopPart {
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #bdc3c7;
+  background-color: #f9fbfb;
+}
+.footerTopPart p {
+  font-size: 17px;
+  margin-bottom: 10px;
+  color: #1b1a1a;
+}
+
+.footerTopPart .input-group button {
+  background-color: #075aaa;
+  color: #fff;
+}
+
+.footerTopPart .form-control {
+  border-radius: 0;
+}
+.footerTopPart .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: none;
+}
+.footerMainPart {
+  border-top: 1px solid #5e6868;
+  background-color: rgb(7 90 170);
+  color: #fff;
+  padding: 15px 0;
+}
+.footerMainPartGrid {
+  border-right: 1px solid;
+  padding: 0 36px;
+}
+.footerMainPartGrid h5 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.footerMainPartGrid ul li a {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+.footerMainPartGrid.last {
+  border-right: none;
+}
+.footerMainPartGrid.last ul li a {
+  display: flex;
+  align-items: center;
+}
+.footerMainPartGrid.last ul li a i{
+  font-size: 30px;
+  margin-right: 5px;
+}
+.footerBottomPart p {
+  padding: 20px 0;
+  background-color: rgb(4 55 105);
+  color: #f9fbfb;
+  text-align: center;
+  font-size: 13px;
+}
+.footerMainPartGrid ul li a:hover {
+  text-decoration: underline;
+}
+/* footer part end */
+
+/* top hospital part css start */
+.topHospitalPartMain {
+  padding-bottom: 20px;
+}
+.topHospitalPartMain h4 {
+  margin-bottom: 14px;
+}
+.topHospitalLargeGrid {
+  border: 1px solid lightgray;
+  border-right: none;
+}
+.topHospitalLeftGrid {
+  border: none;
+  padding: 7px;
+  border-right: 1px solid lightgray;
+}
+
+.topHospitalLeftGrid img {
+  width: 100%;
+}
+
+.topHospitalLeftGrid h6 a {
+  font-size: 14px;
+  color: #075aaa;
+  font-weight: bold;
+}
+.topHospitalSmallGrid img {
+  width: 100%;
+}
+.reating i {
+  color: #f17200;
+}
+.topHospitalSmallGrid p {
+  margin-bottom: 37px;
+}
+
+.topHospitalSmallGrid p a {
+  color: #444;
+}
+.topHospitalSmallGrid p a:hover {
+  text-decoration: underline;
+}
+.findADoctorePart h4 {
+  margin-top: 20px;
+}
+.newsLeftGrid img {
+  border: 1px solid lightgray;
+}
+.findADoctorGrid ul {
+  margin-bottom: 20px;
+}
+/* top hospital part css end */
+
+
+/* update doctor part css start */
+.userDashboardPartMain {
+  padding: 50px 0;
+}
+.userDashboardLeftGrid {
+  border: 1px solid lightgray;
+  margin-bottom: 20px;
+}
+.userDashboardLeftGrid ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-bottom: 1px solid lightgray;
+  font-size: 20px;
+  color: #075aaa;
+  border-radius: 0;
+}
+.userDashboardLeftGrid ul li a.last {
+  border-bottom: none;
+}
+.userDashboardLeftGrid ul li a:hover {
+  background-color: #f6f6f6;
+}
+.userDashboardRightGrid p {
+  margin-top: 28px;
+}
+.btnFindDoctor {
+  background-color: #075aaa;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.btnAddDoctor {
+  background-color: #fff;
+  color: #075aaa;
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+/* update doctor part css end */
+
+/* user ratings css start */
+.UsersratingTop h4 {
+  margin-left: 5px;
+}
+
+.UsersratingTop {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.UsersratingGrid {
+  margin: 10px 0;
+}
+
+.userIcon i {
+  font-size: 24px;
+  color: #075aaa;
+  margin-right: 4px;
+}
+
+.startIcon i {
+  color: #db7f09;
+}
+.commentBox {
+  padding: 20px 10px;
+}
+.commentBox textarea.form-control:focus{
+  box-shadow: none;
+}
+
+.postCommentBtn {
+  display: inline-block;
+  width: 20%;
+  background-color: #fff;
+  border: 1px solid lightgray;
+  padding: 6px;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #075aaa;
+  margin-left: 10px;
+}
+/* user ratings css end */
+
+/* user accont part css start */
+.btnUnsubscribe {
+  border: none;
+  background-color: #c0392a;
+  color: #fff;
+  padding: 6px 12px;
+  display: block;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.updateEmailDiv p {
+  padding-bottom: 10px;
+  margin: 0;
+}
+.updateEmailDiv h6 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+.cheangeEmailBtn {
+  border: none;
+  background-color: #075aaa;
+  color: #fff;
+  padding: 6px 12px;
+  display: block;
+  margin-top: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.updateEmailDiv .form-control:focus {
+  box-shadow: none;
+}
+.createAccount h5 {
+  font-size: 22px;
+  padding: 20px 0;
+  font-weight: bolder;
+}
+.continueGooogleBtn {
+  border: 1px solid lightgray;
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.continueGooogleBtn img {
+  width: 14px;
+  margin-right: 10px;
+}
+/* user accont part css end */
+
+
+/* mobile menu css start */
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  width: 100%;
+  margin-left: 30px;
+  margin-top: 40px;
+
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 15px;
+  color: #fff;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+/* mobile menu css end */
+
+
+
+
+/* responsive for mobile device start */
+
+@media only screen and (max-width: 767px) {
+  .headerPartMain {
+      padding: 12px 5px;
+  }
+  .bannerFormGrid p {
+      margin-bottom: 10px;
+      font-weight: bold;
+      font-size: 14px;
+      color: #075aaa;
+  }
+  .bannerFormGrid {
+      margin-top: 40px;
+  }
+  .clientList ul li img {
+      margin-left: 30px;
+  }
+  .logoDiv img {
+      width: 100%;
+      display: block;
+      margin-top: 3px;
+  }
+    .loginAndSingUP ul {
+      display: none;
+  }
+  .searchDiv i {
+    left: 32%;
+    top: 22px;
+    font-size: 15px;
+  }
+  .searchDiv .form-control {
+      margin-top: 0px;
+      padding: 5px 0px 5px 29px;
+  }
+  .searchDiv input::placeholder {
+      color: #444;
+      font-size: 12px;
+      font-weight: bold;
+      margin-left: 5px;
+  }
+  .barIcon i {
+      display: block;
+      margin-top: 8px;
+  }
+  .footerMainPartGrid {
+      border-right: none;
+      padding: 0;
+      margin-bottom: 20px;
+  }
+  .counterGrid {
+      border: none;
+      margin-bottom: 10px;
+      text-align: center;
+  }
+  .bestDoctorPatLargGrid {
+      border: none;
+  }
+  .topHospitalLeftGrid {
+      border: none;
+      padding: 7px;
+      text-align: center;
+  }
+  .topHospitalLargeGrid {
+      border: none;
+  }
+  .findADoctorGrid {
+      margin-bottom: 20px;
+  }
+  .postCommentBtn {
+    width: 94%;
+}
+
+}
+/* responsive for mobile device end */
